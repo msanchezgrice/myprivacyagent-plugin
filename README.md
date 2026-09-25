@@ -16,11 +16,18 @@ hands you to a free, private check at myprivacyagent.com. Nothing is filed witho
   my-privacy-agent at https://myprivacyagent.com/api/mcp*.
 - **Cursor:** install from the Cursor Marketplace, or add `mcp.json` from this repo to your MCP settings.
 
+## Network and credentials
+
+The plugin calls one endpoint, `https://myprivacyagent.com/api/mcp`, over HTTPS. The public tools need no
+credentials, and the skill never sends names, addresses, phone numbers or emails to it.
+
 ## What's inside
 
 | Path | What |
 |---|---|
-| `.cursor-plugin/plugin.json` | Plugin manifest |
+| `.grok-plugin/plugin.json` | Plugin manifest for Grok Bot and Grok Build (xAI plugin marketplace format) |
+| `.cursor-plugin/plugin.json` | Plugin manifest for the Cursor Marketplace |
+| `.mcp.json` | Remote MCP server, Grok format |
 | `mcp.json` | Remote MCP server: `https://myprivacyagent.com/api/mcp` (Streamable HTTP, public tools need no key) |
 | `skills/my-privacy-agent/` | The skill: workflow and rules |
 | `assets/logo.svg` | Logo |

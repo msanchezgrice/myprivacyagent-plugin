@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "my-privacy-agent": {
+      "type": "http",
+      "url": "https://myprivacyagent.com/api/mcp",
+      "note": "My Privacy Agent hosted MCP server. Public read-only tools need no auth: opt-out guides, removal routes for 950+ data-broker sites, privacy library search. Never looks anyone up and holds no personal data. Account tools use OAuth and are not open yet."
+    }
+  }
+}

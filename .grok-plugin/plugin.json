@@ -1,19 +1,13 @@
 {
   "name": "my-privacy-agent",
-  "displayName": "My Privacy Agent",
   "version": "1.0.0",
   "description": "Get a home address, phone number or email off people-search and data-broker sites. Step-by-step opt-out guides, the documented removal route for 950+ sites (form, email, parent company, sibling sites), and search over the public privacy library. Read-only: it never looks anyone up and holds no personal data.",
   "author": {
-    "name": "My Privacy Agent"
+    "name": "My Privacy Agent",
+    "url": "https://myprivacyagent.com"
   },
-  "publisher": "My Privacy Agent",
-  "homepage": "https://myprivacyagent.com/for/grok",
   "repository": "https://github.com/myprivacyagent/myprivacyagent-plugin",
+  "homepage": "https://myprivacyagent.com/for/grok",
   "license": "MIT",
-  "logo": "assets/logo.svg",
-  "category": "productivity",
-  "keywords": ["privacy", "data-brokers", "opt-out", "people-search", "personal-data", "removal", "security"],
-  "tags": ["privacy", "security", "personal-data"],
-  "skills": "./skills/",
-  "mcpServers": "./mcp.json"
+  "keywords": ["my privacy agent", "myprivacyagent", "privacy agent opt-out"]
 }
