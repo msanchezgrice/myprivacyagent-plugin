@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "my-privacy-agent": {
+      "url": "https://myprivacyagent.com/api/mcp"
+    }
+  }
+}
